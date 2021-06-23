@@ -64,6 +64,16 @@ main{
     background-color: var(--color-grisClaro);
 }
 
+.sin-borde{
+    margin: 0;
+    padding: 0;
+}
+
+.sin-borde img{
+    display: block;
+    width: 100%;
+}
+
 main section{
     margin: 10px;
     margin-top: 0;
@@ -88,16 +98,26 @@ main .descripcion{
 /* footer */
 
 footer{
-    text-align: center;
-    margin: 30px;
-    margin-bottom: 5px;
+    background-color: white;
+    padding-top: 30px;
 }
 
-footer h3{
-    font-size: 16px;
+.foot{
+    text-align: center;
+    padding: 30px;
+    margin: 0;
 }
 
 footer i{
     font-size: 2em;
     margin-bottom: 10px;
+}
+
+.foot h3{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.foot p{
+    color: var(--color-grisOscuro);
 }
